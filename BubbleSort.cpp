@@ -2,7 +2,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 
-void BubbleSort(int a[], int n){
+void BubbleSort(int a[], int n){  //O(n^2)
     int flag;
     for(int i=0; i<n-1; i++){
         flag=0;
